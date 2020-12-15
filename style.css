@@ -1,0 +1,62 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Hammersmith One', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: grey;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 100px;
+    background-color: rgb(229, 233, 229,0.3);
+    border-radius: 15px;
+    display: flexbox;
+}
+
+h1 {
+    font-size: 80px;
+    color: black;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.bouton {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.favicon {
+    color: black;
+}
+
+.favicon:hover {
+
+    transition: transform .2s;
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+
+}
+
+footer{
+    display: inline-flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    margin-bottom:10px;
+    background-color: rgb(236, 240, 236 ,0.4);
+}
